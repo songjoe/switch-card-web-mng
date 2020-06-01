@@ -19,6 +19,10 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "includes": [
+    "src"
+  ],
+  "extends": "./paths.json",
   "include": [
     "src"
   ]
