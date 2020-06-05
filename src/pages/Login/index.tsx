@@ -2,7 +2,10 @@ import React from 'react';
 import { Form, Input, Button } from 'antd';
 import { Store, ValidateErrorEntity } from 'rc-field-form/lib/interface';
 import Logo from '@/components/Logo';
-import styles from './styles.module.less';
+import CopyRight from '@/components/CopyRight';
+import styles from './styles.less';
+
+console.log(styles)
 
 const FormItem = Form.Item;
 
@@ -22,10 +25,10 @@ const Login = () => {
 
   return (
     <div className={styles.login}>
-      {/* <video className={styles.['bg-video']} mtt-playsinline="" autoPlay loop playsInline webkit-playsinline="true" x-webkit-airplay="true" x5-video-player-type="h5" muted src="https://switch-cn.gtgres.com/home/video/home.mp4">
+      {/* <video className={styles['bg-video']} mtt-playsinline="" autoPlay loop playsInline webkit-playsinline="true" x-webkit-airplay="true" x5-video-player-type="h5" muted src="https://switch-cn.gtgres.com/home/video/home.mp4">
         您的浏览器不支持 HTML5 video 标签
       </video> */}
-      <Logo showText />
+      <Logo showText style={{ position: 'absolute', top: '20px', left: '20px'}} />
       <div className={styles['form-wrap']}>
         <p className={styles.title}>登录中僖创智</p>
         <Form
@@ -58,6 +61,7 @@ const Login = () => {
           </FormItem>
         </Form>
       </div>
+      <CopyRight style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translate(-50%, 0)' }} />
     </div>
   )
 }

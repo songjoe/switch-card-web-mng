@@ -5,4 +5,5 @@
  */ 
 export interface LogoProps {
   showText?: boolean;
+  style?: object
 }

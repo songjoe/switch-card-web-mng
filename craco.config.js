@@ -15,12 +15,29 @@ module.exports = {
     {
       plugin: CracoLessPlugin,
       options: {
+        modifyLessRule: function(lessRule, _context) {
+          lessRule.test = /\.(module)\.(less)$/;
+          lessRule.exclude = /node_modules/;
+
+          return lessRule;
+        },
         lessLoaderOptions: {
           modifyVars: { "@primary-color": "#1DA57A" },
-          javascriptEnabled: true,
+          javascriptEnabled: true
         }
       },
     },
+    {
+      plugin: CracoLessPlugin,
+      options: {
+        cssLoaderOptions: {
+          modules: {
+            localIdentName: "[local]_[hash:base64:5]",
+            context: path.resolve(__dirname, 'src')
+          }
+        }
+      }
+    }
   ],
   webpack: {
     alias: {

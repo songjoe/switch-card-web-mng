@@ -4,17 +4,18 @@
  * @LastEditors: SongYijie
  */ 
 import React from 'react';
-import { LogoProps } from '@/types';
+import { LogoProps } from '@/types/logo';
 import LogoImg from '@/assets/images/logo.png';
-import styles from './styles.module.less';
+import styles from './styles.less';
 
 const Logo = (props: LogoProps) => {
-  const { showText } = props;
-  console.log(showText)
+  const { showText, style } = props;
   return (
-    <div className={styles['logo-wrap']}>
-      <img src={LogoImg} alt="logo" className="logo" />
-      <p className="name">中僖创智</p>
+    <div className={styles.logoWrap} style={style}>
+      <img src={LogoImg} alt="logo" className={styles.logo} />
+      {
+        showText && <p className={styles.name}>中僖创智</p>
+      }
     </div>
   )
 }

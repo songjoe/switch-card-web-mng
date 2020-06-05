@@ -19,11 +19,9 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "includes": [
-    "src"
-  ],
-  "extends": "./paths.json",
   "include": [
-    "src"
-  ]
+    "src",
+    "types.d.ts"
+  ],
+  "extends": "./paths.json"
 }
