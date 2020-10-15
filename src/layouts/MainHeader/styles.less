@@ -1,0 +1,39 @@
+.mainHeader {
+  background: #fff !important;
+  padding: 0 !important;
+  z-index: 100;
+  box-shadow: 0 1px 4px 0 rgba(0, 21, 41, 0.12);
+  height: 64px;
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #1DA57A;
+    }
+  }
+
+  .userInfo {
+    cursor: pointer;
+    padding: 0 10px;
+    &:hover {
+      color: #1DA57A;
+      background: rgba(0, 0, 0, 0.045);
+    }
+    .userImg {
+      vertical-align: middle;
+      height: 28px;
+      width: 28px;
+      border-radius: 28px;
+      background: url("./../../assets/images/avatar.png") no-repeat;
+      background-size: cover;
+      display: inline-block;
+    }
+    .userName {
+      margin-left: 10px;
+    }
+  }
+}

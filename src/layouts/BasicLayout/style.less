@@ -1,0 +1,19 @@
+.mainLayout {
+  height: 100vh;
+  flex-direction: row !important;
+  .mainLayoutRight {
+    width: calc(100% - 256px);
+    height: 100vh;
+  }
+  .mainLayoutContent {
+    width: 100%;
+    height: calc(100vh - 64px);
+    overflow-y: auto;
+    > div {
+      &:nth-of-type(1) {
+        height: calc(100% - 70px);
+        box-sizing: border-box;
+      }
+    }
+  }
+}
