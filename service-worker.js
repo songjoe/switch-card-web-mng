@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/switch-card-web-mng/precache-manifest.0fb01ffb5da7e2ea3bac98fee5da4a0e.js"
+  "/switch-card-web-mng/precache-manifest.51c004b78828d4a6c1d3becdacd62f07.js"
 );
 
 self.addEventListener('message', (event) => {

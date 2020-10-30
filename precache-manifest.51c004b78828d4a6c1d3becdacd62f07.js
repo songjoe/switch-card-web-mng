@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21a6dcb8a02192d4792571e423ce87d2",
+    "revision": "c017e10f8a0505e16a71890624ce2eab",
     "url": "/switch-card-web-mng/index.html"
   },
   {
@@ -76,12 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/switch-card-web-mng/static/js/3.a8f2c421.chunk.js"
   },
   {
-    "revision": "9b23b10d3c4a0581ff95",
-    "url": "/switch-card-web-mng/static/js/6.7262c092.chunk.js"
+    "revision": "e72321ffab2834555ec5",
+    "url": "/switch-card-web-mng/static/js/6.60ce2f89.chunk.js"
   },
   {
     "revision": "f239cc04571ce07ee5e6657051470c75",
-    "url": "/switch-card-web-mng/static/js/6.7262c092.chunk.js.LICENSE.txt"
+    "url": "/switch-card-web-mng/static/js/6.60ce2f89.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5071f96db1c46cc3d90f",
