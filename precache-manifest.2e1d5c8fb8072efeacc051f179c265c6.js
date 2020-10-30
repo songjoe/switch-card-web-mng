@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c017e10f8a0505e16a71890624ce2eab",
+    "revision": "b60d1bae27e77c83612acdc64a55d681",
     "url": "/switch-card-web-mng/index.html"
   },
   {
