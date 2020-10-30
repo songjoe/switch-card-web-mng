@@ -9,7 +9,7 @@ import { IState } from '@/types';
 import { getGoodsPageList, closeOrder } from '@/actions/goods';
 import { updateFilter } from '@/actions/filter';
 
-import Goods from './Goods';
+import Goods from './goods';
 
 const mapStateToProps = (state: IState) => ({
   isLoading: state.system.isLoading,

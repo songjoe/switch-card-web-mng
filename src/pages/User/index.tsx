@@ -9,7 +9,7 @@ import { IState } from '@/types';
 import { getUserPageList } from '@/actions/user';
 import { updateFilter } from '@/actions/filter';
 
-import User from './User';
+import User from './user';
 
 const mapStateToProps = (state: IState) => ({
   isLoading: state.system.isLoading,

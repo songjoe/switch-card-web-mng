@@ -23,5 +23,6 @@
     "src",
     "types.d.ts"
   ],
-  "extends": "./paths.json"
+  "extends": "./paths.json",
+  "forceConsistentCasingInFileNames": false
 }

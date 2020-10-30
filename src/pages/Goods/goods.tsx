@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
-import Filter from './Filter';
-import DataTable from './Table';
+import Filter from './filter';
+import DataTable from './table';
 
 const Goods = (props:any) => {
 
