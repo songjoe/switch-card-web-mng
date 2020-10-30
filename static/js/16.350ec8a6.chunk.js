@@ -1,0 +1,2 @@
+(this["webpackJsonpswitch-card-web-mng"]=this["webpackJsonpswitch-card-web-mng"]||[]).push([[16],{487:function(n,e,t){"use strict";t.r(e);var c=t(47),i=t(0),s=t.n(i),a=function(){return s.a.createElement("div",null,s.a.createElement("p",null,"\u6b22\u8fce\u6765\u5230\u4e2d\u50d6\u521b\u667a\u7ba1\u7406\u540e\u53f0"))};e.default=Object(c.c)((function(n){return{isLoading:n.system.isLoading}}))(a)}}]);
+//# sourceMappingURL=16.350ec8a6.chunk.js.map
