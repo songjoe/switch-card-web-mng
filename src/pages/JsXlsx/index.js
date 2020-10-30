@@ -17,6 +17,7 @@ const EditableRow = ({ index, ...props }) => {
   const [form] = Form.useForm();
   return (
     <Form form={form} component={false}>
+      1
       <EditableContext.Provider value={form}>
         <tr {...props} />
       </EditableContext.Provider>
