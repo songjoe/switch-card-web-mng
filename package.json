@@ -19,7 +19,7 @@
     "@types/react-router-dom": "^5.1.5",
     "antd": "^4.2.5",
     "autoprefixer": "^9.8.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-react-css-modules": "^5.2.6",
     "babel-preset-es2015": "^6.24.1",
